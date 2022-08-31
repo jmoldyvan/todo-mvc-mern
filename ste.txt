@@ -1,0 +1,8 @@
+1) make sure mongo can connect to db
+2)create react app in teh views
+3)everything works as is, all npms are up to date
+4)install things for import erxport: axios, bootstrap, react-router-dom, mongodb express cors dotenv mongoose, 
+5)switch all the require; to import erxport
+6)simplify react folder
+7)make react/front end part
+8)make sure evertyything works
