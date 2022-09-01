@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-export default function Register() {
+export default function Signup() {
 
   // tutorial has 2 states one of email and one password
     const [formData,setFormData] = useState(
@@ -46,7 +46,7 @@ export default function Register() {
               name="password"
               value={formData.password}
         />
-        <button type='submit'>Register</button>
+        <button type='submit'>Signup</button>
     </form>
   );
 }

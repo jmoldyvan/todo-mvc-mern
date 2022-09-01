@@ -1,5 +1,5 @@
 // const Todo = require('../models/Todo')
-import Todo  from "../models/Todo"
+import Todo  from "../models/Todo.js"
 
 export default {
     getTodos: async (req,res)=>{

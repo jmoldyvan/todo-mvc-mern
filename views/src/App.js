@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 // import Welcome from "./components/Welcome";
-import Register from "./components/Register";
+import Signup from "./components/Signup";
 
 export default function App() {
   return (
@@ -11,11 +11,11 @@ export default function App() {
         <div>
           <Link to={'/'}>Home</Link>
           <Link to={'/login'}>Login</Link>
-          <Link to={'/register'}>register</Link>
+          <Link to={'/signup'}>signup</Link>
         </div>
         <Routes>
-          <Route path='/register' element={<Register />} />
-          <Route path='/' element={<Register />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path='/' element={<Signup />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -2,8 +2,8 @@
 import passport  from "passport"
 // const validator = require('validator')
 import validator  from "validator"
-const User = require('../models/User')
-import User  from "../models/User"
+// const User = require('../models/User')
+import User  from "../models/User.js"
 
  function getLogin (req, res) {
     if (req.user) {

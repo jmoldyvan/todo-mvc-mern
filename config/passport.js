@@ -1,12 +1,12 @@
 // const LocalStrategy = require('passport-local').Strategy
-import LocalStrategy  from "passport-local"
-let LocalStrategy = LocalStrategy.Strategy
+import { Strategy as LocalStrategy} from 'passport-local'
+// let LocalStrategy = LocalStrategy.Strategy
 
 // const mongoose = require('mongoose')
 import mongoose  from "mongoose"
 
 // const User = require('../models/User')
-import User  from "../models/User"
+import User  from "../models/User.js"
 
 // no function name?
 export default function (passport) {
